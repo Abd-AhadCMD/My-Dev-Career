@@ -1,0 +1,74 @@
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* nav styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 90px 35px;
+}
+
+.banner-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 34px 221px 44px;
+}
+
+#banner-container{
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.ban-img{
+    margin-bottom: 34px;
+}
+
+.title{
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.container-btn{
+    text-align: center;
+    margin-top: 36px;
+}
+
+.btn{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.nav-title{
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+.resume-btn{
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: white;
+}
+.resume-btn:hover {background-color: #a2a2a2};
