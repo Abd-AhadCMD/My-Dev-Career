@@ -36,7 +36,7 @@ nav{
 
 .commitment{
     padding: 80px 96px;
-    margin: 74px 152px 0;
+    margin: 74px 150px 0;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -50,12 +50,12 @@ nav{
     text-align: center;
     margin: 0 47px;
 }
-.sub-title{
+.primary-title{
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .my-goals{
@@ -78,6 +78,63 @@ nav{
     height: 170px;
     margin-top: 42px;
 }
+.my-goals-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 170px;
+    margin-top: 42px;
+}
+
+.my-inspiration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.my-des{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 14px;
+}
+.inspiration-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 852px;
+    height: 115px;
+}
+
+.vid-container{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 12px;
+    margin-top: 38px;
+    width: 1000px;
+    height: 550px;
+}
+.my-target{
+    margin: 100px 150px 0;
+}
+.target{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 
 .button-primary{
     box-sizing: border-box;
@@ -89,6 +146,7 @@ nav{
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0%;
+    cursor: pointer;
 }
 .goal-content{
     margin-right: 88px;
@@ -103,7 +161,7 @@ nav{
 .goal-des{
     font-size: 24px;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 24px;
     letter-spacing: 0%
 }
 .para-goal{
@@ -120,7 +178,61 @@ nav{
     line-height: 26px;
     letter-spacing: 0%;
 }
+.language-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+    gap: 26px;
+}
+.html-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+    position: static;
+    width: 364px;
+    height: 180px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    text-align: left;
+}
+.css-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+    position: static;
+    width: 364px;
+    height: 180px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    text-align: left;
+}
+.js-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+    position: static;
+    width: 364px;
+    height: 180px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    text-align: left;
+}
 
+.language-container img{
+    margin-bottom: 14px;
+}
+.language-container h4{
+    margin-top: 10px;
+}
+.language-container p{
+    margin-top: 10px;
+}
+.language-container a{
+    margin-top: 8px;
+}
 .container-btn{
     text-align: center;
     margin-top: 36px;
@@ -136,6 +248,7 @@ nav{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 .nav-title{
