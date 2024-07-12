@@ -34,9 +34,91 @@ nav{
     margin-bottom: 34px;
 }
 
+.commitment{
+    padding: 80px 96px;
+    margin: 74px 152px 0;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
 .title{
     margin-bottom: 28px;
     text-align: center;
+}
+
+.title-2{
+    text-align: center;
+    margin: 0 47px;
+}
+.sub-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.my-goals{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 170px;
+    margin-top: 42px;
+}
+.my-goals-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 170px;
+    margin-top: 42px;
+}
+
+.button-primary{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px 20px 10px 20px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+.goal-content{
+    margin-right: 88px;
+    width: 470px;
+    height: 120px;
+}
+.goal-content-1{
+    margin-left: 88px;
+    width: 470px;
+    height: 120px;
+}    
+.goal-des{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%
+}
+.para-goal{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.web-content{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
 }
 
 .container-btn{
@@ -72,3 +154,4 @@ nav{
     background-color: white;
 }
 .resume-btn:hover {background-color: #a2a2a2};
+
