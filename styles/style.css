@@ -106,6 +106,28 @@ nav{
     opacity: 0.7;
     margin-top: 14px;
 }
+.my-des2{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.values{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 14px 18px 14px 18px;
+    width: 370px;
+}
+.input2{
+    padding: 14px 18px 14px 18px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
 .inspiration-cont{
     display: flex;
     justify-content: center;
@@ -221,6 +243,107 @@ nav{
     text-align: left;
 }
 
+.next-target{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+.backend-lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+}
+.reactjs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: 18px;
+    width: 850px;
+    height: 80px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 18px;
+}
+.nodejs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: 18px;
+    width: 850px;
+    height: 80px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 18px;
+}
+.mongodb{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: 18px;
+    width: 850px;
+    height: 80px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 18px;
+}
+
+.react-cont{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.support-container{
+    width: 900px;
+    height: 250px;
+    background-color: white;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 70px 150px 100px 255px;
+    padding: 90px 54px 60px 54px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.footer-container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-container a{
+    text-decoration: none;
+}
+.footer-text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%
+}
 .language-container img{
     margin-bottom: 14px;
 }
@@ -267,4 +390,3 @@ nav{
     background-color: white;
 }
 .resume-btn:hover {background-color: #a2a2a2};
-
